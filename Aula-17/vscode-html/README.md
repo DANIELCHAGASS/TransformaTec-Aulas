@@ -1,5 +1,5 @@
 # Exercicio HTML 
 
-Conhecendo alguns Tags e Utilizando em exercicios em aula 
+## Conhecendo tags 
+[tag lista](Lista.html)
 
-TransformaTec Dio 
