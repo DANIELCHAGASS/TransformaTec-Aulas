@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<title>grid</title>
+<html>
+<head>
+<style>
+.item1 {
+  grid-area: myArea;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'myArea myArea myArea myArea myArea';
+  gap: 10px;
+  background-color: #dee9ad;
+  padding: 10px;
+  color:rgb(0, 0, 0)
+}
+
+.grid-container > div {
+  background-color: #a4c639;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1> grid-area</h1>
+
+<div class="grid-container">
+  <div class="item1">Daniel</div>
+  <div class="item2">Daniel 2</div>
+  <div class="item3">Daniel 3</div>  
+  <div class="item4">Daniel 4</div>
+  <div class="item5">Daniel 5</div>
+  <div class="item6">Daniel 6</div>
+</div>
+
+</body>
+</html>
+
+
