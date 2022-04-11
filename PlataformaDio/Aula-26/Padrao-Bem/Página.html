@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com padrao bem</title>
+    <style>
+        .container{
+            background-color: aquamarine;
+        }
+        .cadastro{
+            background-color: bisque;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .container__cadastro{
+            background-color: coral;
+            border-radius: 5px;
+        }
+        .cadastro__input{
+            background-color: coral;
+            border-radius: 5px;
+        }
+        .cadastro__button{
+            background-color: burlywood;
+            border-radius: 5px;
+        }
+        .dados{
+            padding: 20px;
+            border-top: 20px;
+            border-radius: ;
+        }
+        .dados__input{
+            background-color: coral;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+   
+    
+<div class="container">
+    
+    <div class="container__cadastro Cadastro">
+        <p>Formulário de Cadastro</p>
+        <Form action="">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" class="cadastro__input />
+            <label for="sobrenome" name="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" class="cadastro__input" />
+            <label for="email">Email</label>
+            <input type="email" name="email" class="cadastro__input" />
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" class="cadastro__input" />
+            <label for="confirmar-senha">Confirmar Senha</label>
+            <input type="password" name="confirmar-senha" class="cadastro__input" />
+            <input type="submit" value="Enviar" class="cadastro__input" />
+        </Form>
+    </div>
+        <div class="container__dados dados">
+            <p>Dados Pessoais</p>
+            <form action="">
+
+                <label for="endereco">Endereco</label>
+                <input type="text" name="endereco">
+                <label for="numero">Numero</label>
+                <input type="text" name="numero">
+                <label for="complemento">Complemento</label>
+                <input type="text" name="complemento">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade">
+
+            </form>
+        </div>
+</div>
+
+</body>
+</html>
