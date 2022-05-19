@@ -1,6 +1,6 @@
 *{font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
-    color:cadetblue;
+    color:white;
 
 }
 body{
@@ -17,7 +17,8 @@ body{
     width: 50%;
     border: 10px transparent;
     border-radius: 15px;
-    background-color: yellowgreen;
+    background-color: darkslategray;
+    color:white;
 
 }
 
@@ -26,19 +27,19 @@ input{
     margin: 10px;
     border-radius: 15px;
     border: transparent;
-    background-color: cornsilk;
-}
+    background-color:black;
 
+}
 .resposta{
-    color: cornsilk;
+    color:white;
     padding: 15px;
 
 }
 
 .erro_cep{
-    color: cornsilk;
+    color: white;
     padding: 15px;
-    background-color: cadetblue;
+    background-color:black;
     border-radius: 15px;
 }
 
